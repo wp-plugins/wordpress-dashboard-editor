@@ -1,6 +1,6 @@
 === Dashboard Editor ===
 Contributors: ajd777
-Donate link: http://anthologyoi.com/donate/
+Donate link: http://anthologyoi.com/about/donate/
 Tags: dashboard, admin panel, edit dashboard
 Requires at least: 2.0.0
 Tested up to: 2.1.2
