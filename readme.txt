@@ -3,7 +3,7 @@ Contributors: ajd777
 Donate link: http://anthologyoi.com/about/donate/
 Tags: dashboard, admin panel, edit dashboard
 Requires at least: 2.0.0
-Tested up to: 2.1.2
+Tested up to: 2.2.1
 Stable tag: 0.1
 
 With this plugin you can remove sections of the dashboard, add new code, or even add Sidebar Widgets.
