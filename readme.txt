@@ -1,7 +1,7 @@
 === Dashboard Editor ===
 Contributors: ajd777
 Donate link: http://anthologyoi.com/about/donate/
-Tags: dashboard, admin panel, edit dashboard
+Tags: dashboard, admin panel, edit dashboard, dashboard, admin, widget, feeds, integration, edit
 Requires at least: 2.0.0
 Tested up to: 2.2.1
 Stable tag: 0.1
@@ -9,7 +9,7 @@ Stable tag: 0.1
 With this plugin you can remove sections of the dashboard, add new code, or even add Sidebar Widgets.
 
 == Description ==
-Of the entire website the Dashboard is seen by administrators the most, but it is the hardest part of Wordpress to customize. Well not anymore. This plugin allows you to add whatever you want to the Dashboard through PHP and HTML and allows you to even add Sidebar Widgets. You may also wipe the entire dashboard or individually remove some of the more irritating sections like the Dev news, Planet Wordpress and the getting started section.
+ This plugin allows you to add whatever you want to the Wordpress dashboard through PHP and HTML even **Sidebar Widgets**. You can also wipe the entire dashboard or individually remove some of the more irritating sections like the Dev news, Planet Wordpress and the getting started section.
 
 == Installation ==
 Basic Installation (If you are new to Wordpress you should probably use this.):
