@@ -3,7 +3,7 @@
 Plugin Name:Dashboard Editor
 Plugin URI: http://anthologyoi.com/plugins/
 Description: Allows you to customise the dashboard.
-Author: Aaron Dowden
+Author: Aaron Harun
 Version: 0.1
 Author URI: http://anthologyoi.com/
 */
