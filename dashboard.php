@@ -4,7 +4,7 @@ Plugin Name:Dashboard Editor
 Plugin URI: http://anthologyoi.com/plugins/
 Description: Allows you to customise the dashboard.
 Author: Aaron Harun
-Version: 0.1
+Version: 0.2
 Author URI: http://anthologyoi.com/
 */
 $dashboard = get_option("dashboard");
@@ -148,16 +148,9 @@ echo <<<block
 	<tr>
 		<td colspan="2">
 block;
-if($wp_version >= 2.1){
+
 the_editor(stripslashes($dashboard['dashboard_code']),'dashboard[dashboard_code]');
 
-}else{
-
-
-the_quicktags(); ?>
-<textarea  rows="10" cols="40" tabindex="2" name = "dashboard[dashboard_code]" id="dashboard[dashboard_code]"><?php echo stripslashes($dashboard['dashboard_code']); ?></textarea>
-<?php
-}
 echo <<<block
 </td>
 	</tr>
@@ -240,6 +233,9 @@ if(!$options['incoming']){ $options['incoming'] = 0; }
 if(!$options['started']){ $options['started'] = 0; }
 if(!$options['sidebar']){ $options['sidebar'] = 0; }
 	while (list($option, $value) = each($options)) {
+			if( get_magic_quotes_gpc() ) {
+			$value = stripslashes($value);
+			}
 		$dashboard[$option] =  $value;
 	}
 return $dashboard;
