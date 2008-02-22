@@ -1,5 +1,5 @@
 === Dashboard Editor ===
-Contributors: ajd777
+Contributors: Aaron Harun
 Donate link: http://anthologyoi.com/about/donate/
 Tags: dashboard, admin panel, edit dashboard, dashboard, admin, widget, feeds, integration, edit
 Requires at least: 2.0.0
