@@ -3,13 +3,15 @@ Contributors: Aaron Harun
 Donate link: http://anthologyoi.com/about/donate/
 Tags: dashboard, admin panel, edit dashboard, dashboard, admin, widget, feeds, integration, edit
 Requires at least: 2.0.0
-Tested up to: 2.3
-Stable tag: 0.2
+Tested up to: 2.5 (Trunk)
+Stable tag: 1.0
 
 With this plugin you can remove sections of the dashboard, add new code, or even add Sidebar Widgets.
 
 == Description ==
  This plugin allows you to add whatever you want to the Wordpress dashboard through PHP and HTML even **Sidebar Widgets**. You can also wipe the entire dashboard or individually remove some of the more irritating sections like the Dev news, Planet Wordpress and the getting started section.
+
+In WordPress 2.5, the code is cleaner, the plugin is more responsive and you can add both "real" sidebar widgets, or add "fake" ones to match the dashboard.
 
 == Installation ==
 Basic Installation (If you are new to Wordpress you should probably use this.):
@@ -29,7 +31,7 @@ To add a sidebar widget to your dashboard (after selecting the option from the D
 
 The Admin sidebar is modified and controlled the exact same way as any other sidebar.
 
-= How do I display UserOnline stats from the WP-UserOnline plugin? = 
+= How do I display UserOnline stats from the WP-UserOnline plugin? =
 If you use the WP-UserOnline plugin you can use:
 `<?php echo useronline_page();?>`
 
@@ -57,4 +59,5 @@ Any code that can be used in a Wordpress Theme can be used in the dashboard.
 Unfortunately, the only way to get the plugin to work on 2.0.x is to completely wipe the dashboard.
 
 == Screenshots ==
-1. A screenshot of an edited dashboard with widgets.
+1. A screenshot of an edited dashboard with widgets in 2.3.
+2. My actual Dashboard in WP 2.5
