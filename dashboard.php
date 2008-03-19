@@ -4,7 +4,7 @@ Plugin Name:Dashboard Editor
 Plugin URI: http://anthologyoi.com/plugins/
 Description: Allows you to customise the dashboard.
 Author: Aaron Harun
-Version: 1.0
+Version: 1.01
 Author URI: http://anthologyoi.com/
 */
 $dashboard = get_option("dashboard");
@@ -283,7 +283,7 @@ add_action('admin_menu', 'dashboard_menu');
 
 function dashboard_menu() {
  // Add a submenu to the Dashboard:
-    add_submenu_page('index.php', 'Dashboard Managment', 'Dashboard Managment', 8, __file__, 'dashboard_manage');
+    add_submenu_page('index.php', 'Dashboard Managment', 'Dashboard Managment', 8, 'wordpress-dashboard-editor/'.__file__, 'dashboard_manage');
 }
 
 function dashboard_manage(){
