@@ -4,7 +4,7 @@ Plugin Name:Dashboard Editor
 Plugin URI: http://anthologyoi.com/plugins/
 Description: Allows you to customise the dashboard.
 Author: Aaron Harun
-Version: 1.01
+Version: 1.1
 Author URI: http://anthologyoi.com/
 */
 $dashboard = get_option("dashboard");
@@ -106,7 +106,7 @@ function dasboard_wipe($buffer){
 
 
 		if($dashboard['complete_wipe'] == 1){
-			preg_split('/\<div class=\"wrap\"\>[\S\s]*\</div\>\<!-- wrap --\>/','',$buffer);
+			preg_split('@\<div class=\"wrap\"\>[\S\s]*\<\/div\>\<!-- wrap --\>@','',$buffer);
 			$parts[0] .= '<div class="wrap">';
 			$parts[1] .= '</div><!-- wrap -->';
 		}else{
